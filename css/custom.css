@@ -85,6 +85,8 @@
   text-align: center;
 }
 .option {
+  position: relative;
+  z-index: 1;
   font-size: 40px;
   padding: 0px 10px;
   margin-left: 2vw;
@@ -124,7 +126,16 @@
 
 /*special effects*/
 .squares {
-  display: none;
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+.squares li {
+  height: 20px;
+  width: 20px;
+  border-radius: 0;
+  color: rgba(255,255,255,0.2);
 }
 
 /*animations*/
