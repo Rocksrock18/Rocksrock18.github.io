@@ -147,6 +147,7 @@
 }
 .squares li:nth-child(1) {
   animation-duration: 4s;
+  animation-delay: -1s;
   height: 50px;
   width: 50px;
   left: 10%;
@@ -154,6 +155,7 @@
 }
 .squares li:nth-child(2) {
   animation-duration: 7s;
+  animation-delay: 2s;
   height: 70px;
   width: 70px;
   left: 20%;
@@ -168,6 +170,7 @@
 }
 .squares li:nth-child(4) {
   animation-duration: 10s;
+  animation-delay: 1s;
   height: 100px;
   width: 100px;
   left: 40%;
@@ -175,6 +178,7 @@
 }
 .squares li:nth-child(5) {
   animation-duration: 6s;
+  animation-delay: -2s;
   height: 60px;
   width: 60px;
   left: 50%;
@@ -189,6 +193,7 @@
 }
 .squares li:nth-child(7) {
   animation-duration: 5s;
+  animation-delay: 2s;
   height: 80px;
   width: 80px;
   left: 70%;
@@ -196,6 +201,7 @@
 }
 .squares li:nth-child(8) {
   animation-duration: 6s;
+  animation-delay: 1s;
   height: 50px;
   width: 50px;
   left: 80%;
@@ -203,6 +209,7 @@
 }
 .squares li:nth-child(9) {
   animation-duration: 3s;
+  animation-delay: 3s;
   height: 20px;
   width: 20px;
   left: 90%;
