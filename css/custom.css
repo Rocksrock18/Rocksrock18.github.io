@@ -161,6 +161,7 @@ button:hover {
 .squares li {
   position: absolute;
   z-index: 0;
+  opacity: 0;
   display: block;
   list-style: none;
   border-radius: 0;
