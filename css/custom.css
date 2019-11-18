@@ -122,6 +122,15 @@ button:hover {
   display: inline-block;
 }
 
+/*return*/
+.return-container {
+  width: 100%;
+  text-align: center;
+}
+.return-button {
+  margin-top: 10vh;
+}
+
 /*transition classes*/
 .off {
   display: none;
