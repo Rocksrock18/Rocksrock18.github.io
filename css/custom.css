@@ -35,6 +35,7 @@
 }
 .menu-item-themes span:hover {
   background: rgb(153, 153, 255);
+  cursor: pointer;
 }
 .menu-item-themes:hover .dropdown-themes {
   display: block;
@@ -105,6 +106,7 @@
 }
 .option:hover {
   background-color: rgb(153, 153, 255);
+  cursor: pointer;
 }
 
 /*transition classes*/
