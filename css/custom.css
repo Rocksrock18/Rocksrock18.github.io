@@ -14,3 +14,8 @@
   height: 100vh;
   background-color: linear-gradient(rgb(136, 77, 255), rgb(153, 153, 255));
 }
+
+/*transition classes*/
+.off {
+  display: none;
+}
