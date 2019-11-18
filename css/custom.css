@@ -151,7 +151,7 @@
   height: 50px;
   width: 50px;
   left: 10%;
-  bottom: 20%;
+  bottom: 25%;
 }
 .squares li:nth-child(2) {
   animation-duration: 8s;
@@ -159,14 +159,14 @@
   height: 70px;
   width: 70px;
   left: 20%;
-  bottom: 50%;
+  bottom: 60%;
 }
 .squares li:nth-child(3) {
   animation-duration: 7s;
   height: 30px;
   width: 30px;
   left: 30%;
-  bottom: 35%;
+  bottom: 45%;
 }
 .squares li:nth-child(4) {
   animation-duration: 13s;
@@ -174,7 +174,7 @@
   height: 100px;
   width: 100px;
   left: 40%;
-  bottom: 15%;
+  bottom: 20%;
 }
 .squares li:nth-child(5) {
   animation-duration: 9s;
@@ -182,14 +182,14 @@
   height: 60px;
   width: 60px;
   left: 50%;
-  bottom: 40%;
+  bottom: 50%;
 }
 .squares li:nth-child(6) {
   animation-duration: 11s;
   height: 40px;
   width: 40px;
   left: 60%;
-  bottom: 25%;
+  bottom: 35%;
 }
 .squares li:nth-child(7) {
   animation-duration: 6s;
@@ -197,7 +197,7 @@
   height: 80px;
   width: 80px;
   left: 70%;
-  bottom: 65%;
+  bottom: 75%;
 }
 .squares li:nth-child(8) {
   animation-duration: 8s;
@@ -205,7 +205,7 @@
   height: 50px;
   width: 50px;
   left: 80%;
-  bottom: 45%;
+  bottom: 60%;
 }
 .squares li:nth-child(9) {
   animation-duration: 3s;
@@ -213,7 +213,7 @@
   height: 20px;
   width: 20px;
   left: 90%;
-  bottom: 30%;
+  bottom: 40%;
 }
 
 /*animations*/
