@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+/*general*/
 * {
   font-family: Nunito;
+}
+
+
+/*class specefic*/
+
+/*menu*/
+.webpage {
+  width: 100vw;
+  height: 100vh;
+  background-color: linear-gradient(rgb(136, 77, 255), rgb(153, 153, 255));
 }
