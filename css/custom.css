@@ -128,15 +128,19 @@
 
 /*special effects*/
 .squares {
-  display: block;
+  left: 0;
+  overflow: hidden;
   position: absolute;
-  z-index: 0;
   width: 100vw;
   height: 95vh;
   top: 0;
   margin-top: 5vh;
 }
 .squares li {
+  position: absolute;
+  z-index: 0;
+  display: block;
+  list-style: none;
   height: 50px;
   width: 50px;
   border-radius: 0;
