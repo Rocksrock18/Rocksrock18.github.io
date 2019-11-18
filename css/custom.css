@@ -20,13 +20,17 @@
   background: rgb(102, 0, 255);
 }
 .menu-bar {
-  display: inline-block;
+  list-style-type: none;
 }
 .menu-item-pages {
   float: right;
 }
 .menu-item-themes {
   float: left;
+}
+.menu-bar a {
+  display: block;
+  text-decortation: none;
 }
   
 /*main page*/
