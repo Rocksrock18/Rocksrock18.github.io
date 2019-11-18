@@ -12,9 +12,12 @@
 /*class specefic*/
 
 /*menu*/
-.menu-bar {
+.menu {
   position: fixed;
+  overflow: visible;
   z-index: 5;
+}
+.menu-bar {
   width: 100vw;
   height: 5vh;
   background: rgb(102, 0, 255);
@@ -26,9 +29,19 @@
 .menu-item-themes {
   float: left;
 }
-.menu-bar a {
+.menu-item-themes:hover .dropdown-themes {
   display: block;
-  text-decortation: none;
+}
+.menu-bar a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu-bar a:hover {
+  background: rgb(153, 153, 255);
+  cursor: pointer;
+}
+.dropdown-themes {
+  display: none;
 }
   
 /*main page*/
