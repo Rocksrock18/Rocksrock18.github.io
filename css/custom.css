@@ -7,7 +7,21 @@
   padding: 0;
   color: white;
 }
-
+button {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  padding: 0px 10px;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 6%/25%;
+  background-color: rgba(255,255,255,0.1);
+}
+button:hover {
+  background-color: rgb(153, 153, 255);
+  cursor: pointer;
+}
 
 /*class specefic*/
 
@@ -86,27 +100,26 @@
   text-align: center;
 }
 .option {
-  position: relative;
-  z-index: 1;
-  font-size: 40px;
-  padding: 0px 10px;
   margin-left: 2vw;
   margin-right: 2vw;
   display: inline-block;
   opacity: 0;
-  border: solid;
-  border-color: white;
-  border-width: 1px;
-  border-radius: 6%/25%;
-  background-color: rgba(255,255,255,0.1);
   animation-name: option-animate;
   animation-duration: 1s;
   animation-delay: 2s;
   animation-fill-mode: forwards;
 }
-.option:hover {
-  background-color: rgb(153, 153, 255);
-  cursor: pointer;
+
+/*contact*/
+.contact-container {
+  width: 100%;
+  text-align: center;
+}
+.contact-button {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 15vh;
+  display: inline-block;
 }
 
 /*transition classes*/
