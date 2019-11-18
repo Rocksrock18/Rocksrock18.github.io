@@ -6,20 +6,25 @@
       
     }
     function fadeInElement(element) {
-      
+      var old = document.getElementsByClassName("on");
+      setTimeout(function(){ element.classList.remove("off"); element.classList.add("activating");}, 1000);
+      setTimeout(function(){ element.classList.remove("activating"); element.classList.add("on");}, 2000);
+      fadeOutElement(old);
     }
     function fadeOutElement(element) {
-      
+      element.classList.add("deactivating");
+      element.classList.remove("on");
+      setTimeout(function(){ element.classList.remove("deactivating"); element.classList.add("off");}, 1000);
     }
   </script>
 <body>
   <div class="menu">
     <div class="menu-bar">
       <div class="menu-item-pages">
-        <li>Contact</li>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Home</li>
+        <li><a onclick="fadeInElement('contact-page')">Contact</a></li>
+        <li><a onclick="fadeInElement('about-me-page')">About Me</a></li>
+        <li><a onclick="fadeInElement('project-page')">Projects</a></li>
+        <li><a onclick="fadeInElement('home-page')">Home</a></li>
       </div>
       <div class="menu-item-themes">
         <span>Themes</span>
@@ -34,9 +39,9 @@
         <h1 class="name">Jacob Maxson</h1>
       </div>
       <div class="option-container">
-        <button class="option">Projects</button>
-        <button class="option">About Me</button>
-        <button class="option">Contact</button>
+        <button class="option" onclick="fadeInElement('project-page')">Projects</button>
+        <button class="option" onclick="fadeInElement('about-me-page')">About Me</button>
+        <button class="option" onclick="fadeInElement('contact-page')">Contact</button>
     </div>
     <div class="project-page", "off">
       <div class="project-container">
@@ -48,7 +53,7 @@
         <button class="project-button">Personal Website</button>
       </div>
       <div class="return-container">
-        <button class="return-button">Return Home</button>
+        <button class="return-button" onclick="fadeInElement('home-page')">Return Home</button>
       </div>           
     </div>
     <div class="about-me-page", "off">
@@ -58,7 +63,7 @@
         <p>Long ass text</p>
       </div>
       <div class="return-container">
-        <button class="return-button">Return Home</button>
+        <button class="return-button" onclick="fadeInElement('home-page')">Return Home</button>
       </div>    
     </div>
     <div class="contact-page", "off">
@@ -67,6 +72,9 @@
         <button class="contact-button">Email</button>
         <button class="contact-button">LinkedIn</button>
       </div>
+      <div class="return-container">
+        <button class="return-button" onclick="fadeInElement('home-page')">Return Home</button>
+      </div>  
     </div>
     <div class="stars"></div>
     <div class="twinkle"></div>
