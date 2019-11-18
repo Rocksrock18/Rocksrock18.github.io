@@ -19,6 +19,15 @@
   height: 5vh;
   background: rgb(102, 0, 255);
 }
+.menu-bar {
+  display: inline-block;
+}
+.menu-item-pages {
+  float: right;
+}
+.menu-item-themes {
+  float: left;
+}
   
 /*main page*/
 .web-page {
