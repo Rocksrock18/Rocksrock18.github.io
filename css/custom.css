@@ -66,6 +66,14 @@
   height: 95vh;
   background: linear-gradient(rgb(102, 0, 255), rgb(153, 153, 255));
 }
+.name {
+  margin-top: 40vh;
+  font-size: 700%;
+  opacity: 0;
+  animation-name: name-animate;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 
 /*transition classes*/
 .off {
@@ -104,5 +112,16 @@
   }
   100% {
     opacity: 0;
+  }
+}
+@keyframes name-animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.5); translateY(-20vh);
   }
 }
