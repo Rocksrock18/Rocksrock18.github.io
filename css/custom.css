@@ -12,14 +12,12 @@
 /*class specefic*/
 
 /*menu*/
-.menu {
+.menu-bar {
   position: fixed;
   z-index: 5;
   width: 100vw;
   height: 5vh;
   background: rgb(102, 0, 255);
-}
-.menu-bar {
   list-style-type: none;
 }
 .menu-item-pages {
