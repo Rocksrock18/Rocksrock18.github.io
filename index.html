@@ -6,11 +6,11 @@
       
     }
     function fadeInElement(name) {
-      var old = document.getElementsByClassName("on")[0];
-      var element = document.getElementsByClassName(name)[0];
-      setTimeout(function(){ element.classList.remove("off"); element.classList.add("activating");}, 1000);
-      setTimeout(function(){ element.classList.remove("activating"); element.classList.add("on");}, 2000);
-      fadeOutElement(old);
+      var old = document.getElementsByClassName("on");
+      var element = document.getElementsByClassName(name);
+      setTimeout(function(){ element[0].classList.remove("off"); element[0].classList.add("activating");}, 1000);
+      setTimeout(function(){ element[0].classList.remove("activating"); element[0].classList.add("on");}, 2000);
+      fadeOutElement(old[0]);
     }
     function fadeOutElement(element) {
       element.classList.add("deactivating");
