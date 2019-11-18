@@ -29,6 +29,12 @@
 .menu-item-themes {
   float: left;
 }
+.menu-item-themes span{
+  padding: 10px;
+}
+.menu-item-themes span:hover {
+  background: rgb(153, 153, 255);
+}
 .menu-item-themes:hover .dropdown-themes {
   display: block;
 }
@@ -40,13 +46,15 @@
   cursor: pointer;
 }
 .dropdown-themes {
-  padding-top: 5vh;
+  margin-top: 1vh;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 0;
+  min-width: 100px;
   display: none;
 }
-.dropdown-themes a {
-  padding: 10px;
-}
-.dropdown-themes a:hover {
+.dropdown-themes:hover {
   background: rgb(153, 153, 255);
   cursor: pointer;
 }
