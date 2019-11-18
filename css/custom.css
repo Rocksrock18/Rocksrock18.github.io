@@ -79,6 +79,20 @@
   animation-fill-mode: forwards;
 }
 
+/*options*/
+.option-container {
+  width: 100%;
+  text-align: center;
+}
+.option {
+  display: inline-block;
+  opacity: 0;
+  animation-name: option-animate;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
 /*transition classes*/
 .off {
   display: none;
@@ -127,6 +141,16 @@
   }
   100% {
     opacity: 1;
-    transform: scale(0.5) translateY(-20vh);
+    transform: scale(0.5) translateY(-60vh);
+  }
+}
+@keyframes option-animate {
+  0% {
+    opacity: 0;
+    transform: translateY(-60vh);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-60vh);
   }
 }
