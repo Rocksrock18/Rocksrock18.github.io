@@ -16,6 +16,7 @@
   position: fixed;
   overflow: visible;
   z-index: 5;
+  font-size: 12px;
 }
 .menu-bar {
   width: 100vw;
@@ -47,7 +48,6 @@
 }
 .dropdown-themes {
   margin-top: 1vh;
-  font-size: 12px;
   padding: 10px;
   text-align: center;
   width: 0;
