@@ -127,6 +127,6 @@
   }
   100% {
     opacity: 1;
-    transform: scale(0.5); translateY(-20vh);
+    transform: scale(0.5) translateY(-20vh);
   }
 }
