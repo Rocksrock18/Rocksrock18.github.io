@@ -66,6 +66,10 @@
   height: 95vh;
   background: linear-gradient(rgb(102, 0, 255), rgb(153, 153, 255));
 }
+.name-container {
+  width: 100%;
+  text-align: center;
+}
 .name {
   margin-top: 40vh;
   font-size: 700%;
