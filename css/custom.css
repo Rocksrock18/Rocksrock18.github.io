@@ -33,15 +33,22 @@
   display: block;
 }
 .menu-bar a {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
 }
 .menu-bar a:hover {
   background: rgb(153, 153, 255);
   cursor: pointer;
 }
 .dropdown-themes {
+  padding-top: 5vh;
   display: none;
+}
+.dropdown-themes a {
+  padding: 10px;
+}
+.dropdown-themes a:hover {
+  background: rgb(153, 153, 255);
+  cursor: pointer;
 }
   
 /*main page*/
