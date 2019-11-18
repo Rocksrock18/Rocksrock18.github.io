@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link id="stylesheet" href="css/custom.css">
   <script>
     function changeStyleSheet(sheet) {
-      
+      document.getElementById("stylesheet").setAttribute("href", sheet); 
     }
     function fadeInElement(name) {
       var old = document.getElementsByClassName("on");
