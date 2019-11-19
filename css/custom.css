@@ -134,6 +134,22 @@ button:hover {
   height: 200px;
 }
 
+/*description*/
+.description-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20vh;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+.description-container img {
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  float: right;
+  height: 300px;
+}
+
 /*contact*/
 .contact-container {
   width: 100%;
