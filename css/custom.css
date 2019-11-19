@@ -28,12 +28,6 @@ hr {
   border-color: white;
   border-width: 1px;
 }
-a {
-  color: blue;
-}
-a:hover {
-  color: pink;
-}
 
 /*class specefic*/
 
@@ -148,6 +142,7 @@ a:hover {
 
 /*description*/
 .description-container {
+  position: relative;
   width: 60vw;
   min-height: 60vh;
   margin-top: 10vh;
@@ -167,6 +162,12 @@ a:hover {
 .description-container p {
   line-height:1.8;
   font-size: 20px;
+}
+.description-container a {
+  color: blue;
+}
+.description-container a:hover {
+  color: pink;
 }
 
 /*contact*/
