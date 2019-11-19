@@ -80,6 +80,7 @@ button:hover {
 .web-page {
   position: relative;
   overflow: auto;
+  overflow-x: hidden;
   padding-top: 5vh;
   width: 100vw;
   height: 95vh;
