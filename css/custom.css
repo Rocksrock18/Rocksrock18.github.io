@@ -34,7 +34,7 @@ button:hover {
 }
 .menu-bar {
   width: 100vw;
-  height: 5vh;
+  height: 32px;
   background: rgb(102, 0, 255);
   list-style-type: none;
 }
