@@ -22,6 +22,12 @@ button:hover {
   background-color: rgb(153, 153, 255);
   cursor: pointer;
 }
+hr {
+  background-color: white;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
 
 /*class specefic*/
 
