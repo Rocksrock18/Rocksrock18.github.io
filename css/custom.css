@@ -164,10 +164,12 @@ hr {
   font-size: 20px;
 }
 .description-container a {
-  color: blue;
+  color: rgb(0, 255, 255);
 }
 .description-container a:hover {
-  color: pink;
+  color: rgb(0, 179, 179);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /*contact*/
