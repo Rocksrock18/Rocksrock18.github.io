@@ -67,13 +67,12 @@ hr {
 .menu-bar a {
   padding: 10px;
 }
-.menu-bar a:hover {
+.menu-item-pages a:hover {
   background: rgb(255,255,255);
   color: black;
   cursor: pointer;
 }
 .dropdown-themes {
-  margin-top: -1vh;
   padding: 10px;
   text-align: center;
   display: none;
@@ -82,7 +81,7 @@ hr {
   width: 0;
   min-width: 100px;
   min-height: 30px;
-  margin-top: 2vh;
+  padding-top: 1vh;
 }
 .dropdown-themes li:hover {
   background: rgb(255,255,255);
