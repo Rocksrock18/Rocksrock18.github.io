@@ -77,6 +77,7 @@ button:hover {
   
 /*main page*/
 .web-page {
+  position: relative;
   overflow: auto;
   padding-top: 5vh;
   width: 100vw;
