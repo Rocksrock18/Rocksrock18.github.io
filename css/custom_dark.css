@@ -73,14 +73,18 @@ hr {
   cursor: pointer;
 }
 .dropdown-themes {
-  margin-top: 1vh;
+  margin-top: -1vh;
   padding: 10px;
   text-align: center;
-  width: 0;
-  min-width: 100px;
   display: none;
 }
-.dropdown-themes:hover {
+.dropdown-themes li {
+  width: 0;
+  min-width: 100px;
+  min-height: 30px;
+  margin-top: 2vh;
+}
+.dropdown-themes li:hover {
   background: rgb(255,255,255);
   color: black;
   cursor: pointer;
