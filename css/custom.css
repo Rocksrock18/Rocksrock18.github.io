@@ -159,6 +159,7 @@ hr {
   margin-left: 2vw;
 }
 .description-container p {
+  line-height:1.8;
   font-size: 20px;
 }
 
