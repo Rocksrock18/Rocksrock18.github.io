@@ -136,9 +136,8 @@ button:hover {
 
 /*description*/
 .description-container {
-  width: 100%;
-  text-align: center;
-  margin-top: 20vh;
+  width: 60vw;
+  margin-top: 10vh;
   margin-left: 20vw;
   margin-right: 20vw;
 }
@@ -148,6 +147,9 @@ button:hover {
   border-width: 2px;
   float: right;
   height: 300px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 2vw;
 }
 
 /*contact*/
