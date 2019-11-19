@@ -28,6 +28,12 @@ hr {
   border-color: white;
   border-width: 1px;
 }
+a {
+  color: blue;
+}
+a:hover {
+  color: pink;
+}
 
 /*class specefic*/
 
