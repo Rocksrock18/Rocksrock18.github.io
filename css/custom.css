@@ -29,7 +29,6 @@ button:hover {
 .menu {
   position: fixed;
   overflow: visible;
-  padding-top: 5px;
   z-index: 5;
   font-size: 12px;
 }
@@ -40,9 +39,11 @@ button:hover {
   list-style-type: none;
 }
 .menu-item-pages {
+  padding-top: 5px;
   float: right;
 }
 .menu-item-themes {
+  padding-top: 5px;
   float: left;
 }
 .menu-item-themes span{
@@ -182,7 +183,8 @@ button:hover {
   margin-top: 5vh;
 }
 .squares li {
-  position: absolute;
+  pointer-events: none;
+  position: fixed;
   z-index: 0;
   opacity: 0;
   display: block;
