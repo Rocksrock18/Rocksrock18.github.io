@@ -114,11 +114,11 @@ button:hover {
 
 /*project*/
 .project-container {
-  margin-top: 10vh;
   width: 100%;
   text-align: center;
 }
 .project-button {
+  margin-top: 10vh;
   margin-left: 1vw;
   margin-right: 1vw;
   border-radius: 5%;
@@ -150,6 +150,7 @@ button:hover {
 }
 .return-button {
   margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 /*transition classes*/
