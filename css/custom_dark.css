@@ -16,10 +16,11 @@ button {
   border-color: white;
   border-width: 1px;
   border-radius: 6%/25%;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(0,0,0);
 }
 button:hover {
-  background-color: rgb(153, 153, 255);
+  background-color: rgb(255,255,255);
+  color: black;
   cursor: pointer;
 }
 hr {
@@ -57,6 +58,7 @@ hr {
 }
 .menu-item-themes span:hover {
   background: rgb(255,255,255);
+  color: black;
   cursor: pointer;
 }
 .menu-item-themes:hover .dropdown-themes {
@@ -67,6 +69,7 @@ hr {
 }
 .menu-bar a:hover {
   background: rgb(255,255,255);
+  color: black;
   cursor: pointer;
 }
 .dropdown-themes {
@@ -79,6 +82,7 @@ hr {
 }
 .dropdown-themes:hover {
   background: rgb(255,255,255);
+  color: black;
   cursor: pointer;
 }
   
