@@ -12,8 +12,14 @@
       video.pause();
     }
     function changeStyleSheet(sheet) {
-      document.getElementById("theme").setAttribute("href", sheet); 
-      if(sheet == "custom_dark.css")
+      document.getElementById("theme").setAttribute("href", sheet);
+      var videoSheet = "css/custom_dark.css";
+      var videoSheet2 = sheet;
+      console.log(videoSheet);
+      console.log(videoSheet2);
+      console.log(videoSheet == videoSheet2);
+      console.log(videoSheet === videoSheet2);
+      if(videoSheet == videoSheet2)
       {
         playVideo();
       }
