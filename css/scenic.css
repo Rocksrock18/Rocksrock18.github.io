@@ -224,9 +224,14 @@ hr {
   display: none;
 }
 .video-bg {
-  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -2;
   width: 100%;
-  margin: 0 auto;
+  pointer-events: none;
 }
 .video-bg video {
   width: 100%;
