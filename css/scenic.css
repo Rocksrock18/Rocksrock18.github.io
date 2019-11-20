@@ -224,21 +224,22 @@ hr {
   display: none;
 }
 .video-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -100;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
-
-#vid {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.video-bg video {
+  width: 100%;
+  display: block;
+}
+.video-bg:before {
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 /*animations*/
