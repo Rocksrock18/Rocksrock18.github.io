@@ -94,6 +94,8 @@ hr {
 .web-page {
   color: white;
   position: relative;
+  z-index: -1;
+  background: transparent rgba(0,0,0,0.5);
   overflow: auto;
   overflow-x: hidden;
   padding-top: 5vh;
@@ -108,9 +110,6 @@ hr {
   margin-top: 40vh;
   font-size: 700%;
   opacity: 0;
-  animation-name: name-animate;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 
 /*options*/
@@ -123,10 +122,6 @@ hr {
   margin-right: 2vw;
   display: inline-block;
   opacity: 0;
-  animation-name: option-animate;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
 }
 
 /*project*/
@@ -226,26 +221,14 @@ hr {
   display: none;
 }
 .stars, .twinkling {
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  width:100%;
-  height:100%;
-  display: block;
-}
-.stars {
-  background: #000 url(images/stars.png) repeat top center;
-  z-index: -2;
-}
-.twinkling {
-  background: transparent url(images/twinkling.png) repeat top center;
-  z-index: -1;
-  animation: twinkle 200s linear infinite;
+  display: none;
 }
 .video-bg {
-  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 /*animations*/
@@ -263,35 +246,5 @@ hr {
   }
   100% {
     opacity: 0;
-  }
-}
-@keyframes name-animate {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    transform: scale(0.5) translateY(-60vh);
-  }
-}
-@keyframes option-animate {
-  0% {
-    opacity: 0;
-    transform: translateY(-25vh);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(-25vh);
-  }
-}
-@keyframes twinkle {
-  0% {
-    background-position:0 0;
-  }
-  100% {
-    background-position:-10000px 5000px;
   }
 }
