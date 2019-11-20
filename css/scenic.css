@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Futura+PT&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
 /*general*/
 * {
-  font-family: Futura PT;
+  font-family: Roboto Slab Thin;
   margin: 0;
   padding: 0;
 }
