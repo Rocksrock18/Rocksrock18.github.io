@@ -62,22 +62,24 @@ hr {
 .menu-item-themes:hover .dropdown-themes {
   display: block;
 }
-.menu-bar a {
+.menu-item-pages a {
   padding: 10px;
 }
-.menu-bar a:hover {
+.menu-item-pages a:hover {
   background: rgb(153, 153, 255);
   cursor: pointer;
 }
 .dropdown-themes {
-  margin-top: 1vh;
-  padding: 10px;
+  padding-top: 10px;
   text-align: center;
-  width: 0;
-  min-width: 100px;
   display: none;
 }
-.dropdown-themes:hover {
+.menu-item-themes li {
+  width: 0;
+  min-width: 100px;
+  min-height: 30px;
+}
+.menu-item-themes li:hover {
   background: rgb(153, 153, 255);
   cursor: pointer;
 }
