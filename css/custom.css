@@ -142,9 +142,6 @@ hr {
 .project-button img {
   height: 200px;
 }
-#website-thumbnail {
-  background: url(images/WebsiteCustomThumbnail.PNG);
-}
 
 /*description*/
 .description-container {
