@@ -3,8 +3,24 @@
 <head>
   <link id="theme" rel="stylesheet" href="css/custom_dark.css">
   <script>
+    function playVideo() {
+      var video = document.getElementById("vid");
+      video.play();
+    }
+    function pauseVideo() {
+      var video = document.getElementById("vid");
+      video.pause();
+    }
     function changeStyleSheet(sheet) {
       document.getElementById("theme").setAttribute("href", sheet); 
+      if(sheet == "custom_dark.css")
+      {
+        playVideo();
+      }
+      else
+      {
+        pauseVideo();
+      }
     }
     function fadeInElement(name) {
       var old = document.getElementsByClassName("on");
@@ -108,7 +124,7 @@
     </div>
     <div class="background-display">
       <div class="video-bg">
-        <video>
+        <video id="vid">
           <source src="ScenicPansComp.mp4" type="video/mp4">
         </video>
       </div>
