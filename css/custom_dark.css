@@ -39,9 +39,6 @@ hr {
   z-index: 5;
   font-size: 12px;
 }
-.menu ul {
-  list-style: none;
-}
 .menu-bar {
   width: 100vw;
   height: 32px;
@@ -80,13 +77,13 @@ hr {
   text-align: center;
   display: none;
 }
-.dropdown-themes li {
+.dropdown-themes a {
   width: 0;
   min-width: 100px;
   min-height: 30px;
   padding-top: 1vh;
 }
-.dropdown-themes li:hover {
+.dropdown-themes a:hover {
   background: rgb(255,255,255);
   text-color: black;
   cursor: pointer;
