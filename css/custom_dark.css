@@ -62,7 +62,10 @@ hr {
   color: black;
   cursor: pointer;
 }
-.menu-item-themes:hover, .menu-item-themes:active .dropdown-themes {
+.menu-item-themes:hover .dropdown-themes {
+  display: block;
+}
+.menu-item-themes:active .dropdown-themes {
   display: block;
 }
 .menu-item-pages a {
