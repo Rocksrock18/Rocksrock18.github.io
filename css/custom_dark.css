@@ -5,9 +5,9 @@
   font-family: Dosis;
   margin: 0;
   padding: 0;
-  color: white;
 }
 button {
+  color: white;
   position: relative;
   z-index: 2;
   font-size: 40px;
@@ -34,6 +34,7 @@ hr {
 
 /*menu*/
 .menu {
+  color: white;
   position: fixed;
   overflow: visible;
   z-index: 5;
@@ -77,13 +78,13 @@ hr {
   text-align: center;
   display: none;
 }
-.dropdown-themes a {
+.dropdown-themes li {
   width: 0;
   min-width: 100px;
   min-height: 30px;
   padding-top: 1vh;
 }
-.dropdown-themes a:hover {
+.dropdown-themes li:hover {
   background: rgb(255,255,255);
   text-color: black;
   cursor: pointer;
@@ -91,6 +92,7 @@ hr {
   
 /*main page*/
 .web-page {
+  color: white;
   position: relative;
   overflow: auto;
   overflow-x: hidden;
