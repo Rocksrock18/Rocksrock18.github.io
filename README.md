@@ -4,13 +4,13 @@ A personal website that has info about me and some of the projects I've worked o
 
 Site can be found here: http://rocksrock18.github.io
 
-## Themes
+### Themes
 
 There are multiple themes you can choose from. Pick your favorite!
 
-# Built With
+## Built With
 * HTML/CSS
 * Github text editor + Notepad
 
-# Author
+## Author
 Jacob Maxson
