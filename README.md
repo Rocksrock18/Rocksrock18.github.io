@@ -9,6 +9,11 @@ The default theme upon loading the page is the custom dark theme.
 
 * There are multiple themes you can choose from. Pick your favorite!
 
+### Browsers
+The website is designed to work for google chrome, so some features may not work for other browsers.
+
+* Website is mobile friendly, with the exception of not being able to change themes.
+
 ## Built With
 * HTML/CSS
 * Github text editor + Notepad
