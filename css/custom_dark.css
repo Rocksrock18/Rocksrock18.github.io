@@ -78,13 +78,12 @@ hr {
   text-align: center;
   display: none;
 }
-.dropdown-themes li {
+.menu-item-themes li {
   width: 0;
   min-width: 100px;
   min-height: 30px;
-  padding-top: 1vh;
 }
-.dropdown-themes li:hover {
+.menu-item-themes li:hover {
   background: rgb(255,255,255);
   color: black !important;
   cursor: pointer;
