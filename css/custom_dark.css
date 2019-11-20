@@ -65,7 +65,7 @@ hr {
 .menu-item-themes:hover .dropdown-themes {
   display: block;
 }
-.menu-bar a {
+.menu-item-pages a {
   padding: 10px;
 }
 .menu-item-pages a:hover {
@@ -86,7 +86,7 @@ hr {
 }
 .dropdown-themes li:hover {
   background: rgb(255,255,255);
-  text-color: black;
+  color: black !important;
   cursor: pointer;
 }
   
