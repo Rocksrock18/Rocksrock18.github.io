@@ -62,6 +62,9 @@ hr {
 .menu-item-themes:hover .dropdown-themes {
   display: block;
 }
+.menu-item-themes:active .dropdown-themes {
+  display: block;
+}
 .menu-item-pages a {
   padding: 10px;
 }
