@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 /*general*/
 * {
-  font-family: Dosis;
+  font-family: Roboto;
   margin: 0;
   padding: 0;
 }
