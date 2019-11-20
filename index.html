@@ -13,18 +13,11 @@
     }
     function changeStyleSheet(sheet) {
       document.getElementById("theme").setAttribute("href", sheet);
-      var videoSheet = "css/custom_dark.css";
+      var videoSheet = "css/scenic.css";
       var videoSheet2 = sheet;
-      console.log(videoSheet);
-      console.log(videoSheet2);
-      console.log(videoSheet == videoSheet2);
-      console.log(videoSheet === videoSheet2);
-      if(videoSheet == videoSheet2)
-      {
+      if(videoSheet == videoSheet2) {
         playVideo();
-      }
-      else
-      {
+      } else {
         pauseVideo();
       }
     }
@@ -55,6 +48,7 @@
         <div class="dropdown-themes">
             <li onclick="changeStyleSheet('css/custom.css')">Custom Theme</li>
             <li onclick="changeStyleSheet('css/custom_dark.css')">Custom Dark Theme</li>
+            <li onclick="changeStyleSheet('css/scenic.css')">Scenic Theme</li>
         </div>
       </div>
     </div>
