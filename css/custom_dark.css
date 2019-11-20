@@ -39,6 +39,9 @@ hr {
   z-index: 5;
   font-size: 12px;
 }
+.menu ul {
+  list-style: none;
+}
 .menu-bar {
   width: 100vw;
   height: 32px;
@@ -85,10 +88,8 @@ hr {
 }
 .dropdown-themes li:hover {
   background: rgb(255,255,255);
+  text-color: black;
   cursor: pointer;
-}
-.dropdown-themes span:hover {
-  color: black;
 }
   
 /*main page*/
