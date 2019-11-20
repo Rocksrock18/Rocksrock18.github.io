@@ -3,11 +3,14 @@
 <head>
   <link id="theme" rel="stylesheet" href="css/custom.css">
   <script>
+    function scrollToTop()
+    {
+      window.scrollTo(0,0);
+    }
     function changeStyleSheet(sheet) {
       document.getElementById("theme").setAttribute("href", sheet); 
     }
     function fadeInElement(name) {
-      window.scroll(0,0);
       var old = document.getElementsByClassName("on");
       fadeOutElement(old[0]);
       var element = document.getElementsByClassName(name);
@@ -25,8 +28,8 @@
     <div class="menu-bar">
       <div class="menu-item-pages">
         <a onclick="fadeInElement('contact-page')">Contact</a>
-        <a onclick="fadeInElement('about-me-page')">About Me</a>
-        <a onclick="fadeInElement('project-page')">Projects</a>
+        <a onclick="scrollToTop(); fadeInElement('about-me-page')">About Me</a>
+        <a onclick="scrollToTop(); fadeInElement('project-page')">Projects</a>
         <a onclick="fadeInElement('home-page')">Home</a>
       </div>
       <div class="menu-item-themes">
@@ -44,8 +47,8 @@
         <h1 class="name">Jacob Maxson</h1>
       </div>
       <div class="option-container">
-        <button class="option" onclick="fadeInElement('project-page')">Projects</button>
-        <button class="option" onclick="fadeInElement('about-me-page')">About Me</button>
+        <button class="option" onclick="scrollToTop(); fadeInElement('project-page')">Projects</button>
+        <button class="option" onclick="scrollToTop(); fadeInElement('about-me-page')">About Me</button>
         <button class="option" onclick="fadeInElement('contact-page')">Contact</button>
       </div>
     </div>
@@ -84,7 +87,7 @@
           
             Outside of the classroom, I like to apply what I know to my own personal projects. I've worked
             in teams and individually on topics ranging from <b>neural networks</b> to <b>data analytics</b>
-            to <b>game development</b>. Feel free to check out what I've been working on <a onclick="fadeInElement('project-page')">here</a>
+            to <b>game development</b>. Feel free to check out what I've been working on <a onclick="scrollToTop(); fadeInElement('project-page')">here</a>
             or look at my <a onclick="window.open('css/resumes/Jacob_Maxson_Resume.pdf','_blank')">resume</a> to learn more!<br><br>
           
             When I'm not working on projects, I like to hang out with friends or play sports outside. I was born and raised in Cleveland,
