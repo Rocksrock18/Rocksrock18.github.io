@@ -83,13 +83,12 @@ hr {
   min-height: 30px;
   padding-top: 1vh;
 }
-.dropdown-themes li a:hover {
-  color: black;
-}
 .dropdown-themes li:hover {
   background: rgb(255,255,255);
-  color: black;
   cursor: pointer;
+}
+.dropdown-themes span:hover {
+  color: black;
 }
   
 /*main page*/
