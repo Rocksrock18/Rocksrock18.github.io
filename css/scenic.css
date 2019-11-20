@@ -95,7 +95,7 @@ hr {
   color: white;
   position: relative;
   z-index: -1;
-  background: transparent rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
   overflow: auto;
   overflow-x: hidden;
   padding-top: 5vh;
@@ -225,6 +225,7 @@ hr {
 }
 .video-bg {
   position: fixed;
+  z-index: -2;
   height: 100%;
   width: 100%;
   top: 0;
