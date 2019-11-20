@@ -32,6 +32,11 @@ hr {
 
 /*class specefic*/
 
+/*divider*/
+.divider {
+  display: none;
+}
+
 /*menu*/
 .menu {
   color: white;
