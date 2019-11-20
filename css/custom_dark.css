@@ -98,7 +98,6 @@ hr {
   padding-top: 5vh;
   width: 100vw;
   height: 95vh;
-  background-color: rgb(0,0,0);
 }
 .name-container {
   width: 100%;
@@ -236,12 +235,12 @@ hr {
   display: block;
 }
 .stars {
-  background:#000 url(css/images/stars.png) repeat top center;
-  z-index:0;
+  background: #000 url(images/stars.png) repeat top center;
+  z-index: -2;
 }
-.twinkling{
-  background:transparent url(css/images/twinkling.png) repeat top center;
-  z-index:1;
+.twinkling {
+  background: transparent url(images/twinkling.png) repeat top center;
+  z-index: -1;
   animation: twinkle 200s linear infinite;
 }
 
