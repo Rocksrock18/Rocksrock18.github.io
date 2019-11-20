@@ -10,7 +10,7 @@ There are multiple themes you can choose from. Pick your favorite!
 
 # Built With
 * HTML/CSS
-* Github text editor
+* Github text editor + Notepad
 
 # Author
 Jacob Maxson
