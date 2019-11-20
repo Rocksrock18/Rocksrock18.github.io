@@ -16,7 +16,7 @@ button {
   border-color: white;
   border-width: 1px;
   border-radius: 6%/25%;
-  background-color: rgba(0,0,0);
+  background-color: rgba(0,0,0, 0.2);
 }
 button:hover {
   background-color: rgb(255,255,255);
@@ -43,7 +43,7 @@ hr {
 .menu-bar {
   width: 100vw;
   height: 32px;
-  background: rgb(0,0,0);
+  background: rgba(0,0,0, 0.3);
   list-style-type: none;
 }
 .menu-item-pages {
@@ -93,9 +93,7 @@ hr {
 /*main page*/
 .web-page {
   color: white;
-  position: relative;
   z-index: -1;
-  background: rgba(0,0,0,0.5);
   overflow: auto;
   overflow-x: hidden;
   padding-top: 5vh;
@@ -103,13 +101,14 @@ hr {
   height: 95vh;
 }
 .name-container {
+  position:  relative;
+  z-index:  5;
   width: 100%;
   text-align: center;
 }
 .name {
-  margin-top: 40vh;
-  font-size: 700%;
-  opacity: 0;
+  margin-top: 20vh;
+  font-size: 350%;
 }
 
 /*options*/
@@ -120,8 +119,8 @@ hr {
 .option {
   margin-left: 2vw;
   margin-right: 2vw;
+  margin-top: 10vh;
   display: inline-block;
-  opacity: 0;
 }
 
 /*project*/
@@ -225,22 +224,23 @@ hr {
 }
 .video-bg {
   top: 0;
-  right: 0;
   bottom: 0;
-  left: 0;
   position: fixed;
   z-index: -2;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   pointer-events: none;
 }
 .video-bg video {
-  width: 100%;
-  display: block;
+  pointer-events: none;
 }
 .video-bg:before {
   content: '';
   position: absolute;
+  z-index: 1;
   background: rgba(0, 0, 0, 0.5);
+  width:  100%;
+  height:  100%;
   top: 0;
   right: 0;
   bottom: 0;
