@@ -241,6 +241,8 @@ hr {
 }
 .video-bg video {
   pointer-events: none;
+  min-height: 130vh;
+  min-width: 100vw;
 }
 .video-bg:before {
   content: '';
