@@ -101,7 +101,8 @@ hr {
   padding-top: 5vh;
   width: 100vw;
   height: 95vh;
-  background: linear-gradient(rgb(102, 0, 255), rgb(153, 153, 255));
+  background: linear-gradient(rgb(255, 234, 205), rgb(88, 56, 107));
+  /*background: linear-gradient(rgb(102, 0, 255), rgb(153, 153, 255));*/
 }
 .name-container {
   width: 100%;
