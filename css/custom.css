@@ -19,7 +19,7 @@ button {
   background-color: rgba(255,255,255,0.1);
 }
 button:hover {
-  background-color: rgb(153, 153, 255);
+  background-color:  rgb(227, 204, 244);
   cursor: pointer;
 }
 hr {
@@ -46,7 +46,7 @@ hr {
 .menu-bar {
   width: 100vw;
   height: 32px;
-  background: rgb(102, 0, 255);
+  background: #a6c1ee;
   list-style-type: none;
 }
 .menu-item-pages {
@@ -61,7 +61,7 @@ hr {
   padding: 10px;
 }
 .menu-item-themes span:hover {
-  background: rgb(153, 153, 255);
+  background: rgb(227, 204, 244);
   cursor: pointer;
 }
 .menu-item-themes:hover .dropdown-themes {
@@ -74,7 +74,7 @@ hr {
   padding: 10px;
 }
 .menu-item-pages a:hover {
-  background: rgb(153, 153, 255);
+  background: rgb(227, 204, 244);
   cursor: pointer;
 }
 .dropdown-themes {
@@ -89,7 +89,7 @@ hr {
   min-height: 30px;
 }
 .menu-item-themes li:hover {
-  background: rgb(153, 153, 255);
+  background: rgb(227, 204, 244);
   cursor: pointer;
 }
   
@@ -101,8 +101,8 @@ hr {
   padding-top: 5vh;
   width: 100vw;
   height: 95vh;
-  background: linear-gradient(rgb(255, 234, 205), rgb(88, 56, 107));
-  /*background: linear-gradient(rgb(102, 0, 255), rgb(153, 153, 255));*/
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+);
 }
 .name-container {
   width: 100%;
@@ -178,7 +178,7 @@ hr {
   font-size: 20px;
 }
 .description-container a {
-  color: rgb(0, 255, 255);
+  color: #d8fdff;
 }
 .description-container a:hover {
   color: rgb(127, 255, 212);
