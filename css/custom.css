@@ -19,7 +19,7 @@ button {
   background-color: rgba(255,255,255,0.1);
 }
 button:hover {
-  background-color:  rgb(227, 204, 244);
+  background-color:  #9100ff;
   cursor: pointer;
 }
 hr {
@@ -46,7 +46,8 @@ hr {
 .menu-bar {
   width: 100vw;
   height: 32px;
-  background: #a6c1ee;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #5d80ff 0%, #b119ff 74%);
   list-style-type: none;
 }
 .menu-item-pages {
@@ -61,7 +62,7 @@ hr {
   padding: 10px;
 }
 .menu-item-themes span:hover {
-  background: rgb(227, 204, 244);
+  background: #8266ff;
   cursor: pointer;
 }
 .menu-item-themes:hover .dropdown-themes {
@@ -74,7 +75,7 @@ hr {
   padding: 10px;
 }
 .menu-item-pages a:hover {
-  background: rgb(227, 204, 244);
+  background: #51d2ff;
   cursor: pointer;
 }
 .dropdown-themes {
@@ -89,7 +90,7 @@ hr {
   min-height: 30px;
 }
 .menu-item-themes li:hover {
-  background: rgb(227, 204, 244);
+  background: #8266ff;
   cursor: pointer;
 }
   
@@ -101,7 +102,8 @@ hr {
   padding-top: 5vh;
   width: 100vw;
   height: 95vh;
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
 );
 }
 .name-container {
@@ -178,7 +180,7 @@ hr {
   font-size: 20px;
 }
 .description-container a {
-  color: #d8fdff;
+  color: #00f2ff;
 }
 .description-container a:hover {
   color: rgb(127, 255, 212);
