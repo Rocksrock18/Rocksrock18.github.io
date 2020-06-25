@@ -15,7 +15,7 @@ The website is designed to work for google chrome, so some features may not work
 * Website is mobile friendly, with the exception of not being able to change themes.
 
 ## Built With
-* HTML/CSS
+* HTML, CSS, JavaScript
 * Github text editor + Notepad
 
 ## Author
