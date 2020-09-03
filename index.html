@@ -4,6 +4,7 @@
   <title>Jacob Maxson</title>
   <link id="theme" rel="stylesheet" href="css/custom_dark.css">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script src="scripts/ShootingStarsGenerator.js"></script>
   <script src="scripts/VideoManager.js"></script>
   <script src="scripts/PageManager.js"></script>
 <body>
@@ -132,12 +133,13 @@
         </ul>
       </div>
       <div class="ShootingStars">
+        <button onclick="GenerateStars()">Generate Stars</button>
         <div class="StarParents">
           <ul id="StarListParents">
             <li class="shooting-star"></li>
           </ul>
         </div>
-        <div id="StarChildren">
+        <div class="StarChildren">
           <ul id="StarListChildren">
           </ul>
         </div>
