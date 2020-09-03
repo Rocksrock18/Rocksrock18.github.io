@@ -276,6 +276,16 @@ hr {
   content: '';
 }
 
+.shooting-star li:nth-child(1) {
+    left: 10%
+}
+.shooting-star li:nth-child(2) {
+    left: 20%
+}
+.shooting-star li:nth-child(3) {
+    left: 30%
+}
+
 /*animations*/
 @keyframes fadeIn {
   0% {
