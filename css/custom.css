@@ -230,6 +230,9 @@ hr {
 .video-bg {
   display: none;
 }
+.ShootingStars {
+  display: none;
+}
 .squares {
   left: 0;
   overflow: hidden;
