@@ -1,12 +1,10 @@
 function changeStyleSheet(sheet) {
     document.getElementById("theme").setAttribute("href", sheet);
-    var videoSheet = "css/scenic.css";
-    var videoSheet2 = sheet;
-    if(videoSheet == videoSheet2) {
-      playVideo();
-    } else {
-      pauseVideo();
-    }
+    var scenic = "css/scenic.css";
+    var stars = "css/stars.css";
+    var videoSheet = sheet;
+    videoSheet == scenic ? playVideo() : pauseVideo();
+    videoSheet == stars ? GenerateStars() : DeleteStars();
   }
   function fadeInElement(name) {
     var old = document.getElementsByClassName("on");
