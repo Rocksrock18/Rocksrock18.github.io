@@ -16,11 +16,11 @@ button {
   border-color: white;
   border-width: 1px;
   border-radius: 6%/25%;
-  background-color: rgba(0,0,0);
+  background-color: rgb(4, 0, 37);
 }
 button:hover {
   background-color: rgb(255,255,255);
-  color: black;
+  color: rgb(0,0,0);
   cursor: pointer;
 }
 hr {
@@ -184,10 +184,10 @@ hr {
   font-size: 20px;
 }
 .description-container a {
-  color: MediumSpringGreen;
+  color: cyan;
 }
 .description-container a:hover {
-  color: Cyan;
+  color: rgb(255, 253, 153);
   text-decoration: underline;
   cursor: pointer;
 }
